@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Слова</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Слова</h1>
+    <div id="auth" class="auth-wrapper">
+      <input id="login" type="text" name="login" placeholder="Введите логин" />
+      <input
+        id="password"
+        type="password"
+        name="password"
+        placeholder="Введите пароль"
+      />
+      <button id="auth-button">ВОЙТИ</button>
+      <div id="autErr"></div>
+    </div>
+
+    <div id="lobby" class="hide lobby-wrapper">
+      <button id="start" class="start-block">ИГРАТЬ</button>
+    </div>
+
+    <div id="game" class="hide game-block">
+      <p id="text" class="text-wrapper"></p>
+
+      <table id="result" class="hide">
+        <tr>
+          <td class="colRow11"></td>
+          <td class="colRow12"></td>
+        </tr>
+        <tr>
+          <td class="colRow21"></td>
+          <td class="colRow22"></td>
+        </tr>
+        <tr>
+          <td class="colRow31"></td>
+          <td class="colRow32"></td>
+        </tr>
+        <tr>
+          <td class="colRow41"></td>
+          <td class="colRow42"></td>
+        </tr>
+      </table>
+      <p id="answer"></p>
+    </div>
+
+    <div id="endgame" class="endgame-wrapper hide">
+      <button id="logout-button">ВЫЙТИ</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
