@@ -22,10 +22,14 @@
     </div>
 
     <div id="lobby" class="hide lobby-wrapper">
-      <button id="start" class="start-block">ИГРАТЬ</button>
+      <button id="start-1" class="start-block">ИГРАТЬ 1 lvl</button>
+      <button id="start-2" class="start-block">ИГРАТЬ 2 lvl</button>
+      <button id="start-3" class="start-block">ИГРАТЬ 3 lvl</button>
+      <div id="counter" class="hide">3</div>
     </div>
 
     <div id="game" class="hide game-block">
+      <div id="game-timer"></div>
       <p id="text" class="text-wrapper"></p>
 
       <table id="result" class="hide">
@@ -50,7 +54,10 @@
     </div>
 
     <div id="endgame" class="endgame-wrapper hide">
-      <button id="logout-button">ВЫЙТИ</button>
+      <button class="logout-button">ВЫЙТИ</button>
+    </div>
+    <div id="game-timeout" class="endgame-wrapper hide">
+      <button class="logout-button">ВЫЙТИ</button>
     </div>
     <script src="./index.js"></script>
   </body>

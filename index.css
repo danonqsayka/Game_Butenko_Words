@@ -1,5 +1,5 @@
 * {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 body {
@@ -62,14 +62,6 @@ input {
   border-radius: 15px;
   padding: 10px;
   margin-bottom: 10px;
-}
-
-.text-wrapper span {
-  cursor: pointer;
-}
-
-.text-wrapper span:hover {
-  opacity: 0.5;
 }
 
 .success {
